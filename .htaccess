@@ -1,3 +1,10 @@
+
+#    This .htaccess File
+#    is from Version b2.0.0 Sanggye
+#    -----------------------------------------------
+#    Please view the documentation on
+#    how to upgrade this file
+
 #Detection of index file
 DirectoryIndex index.html 
 

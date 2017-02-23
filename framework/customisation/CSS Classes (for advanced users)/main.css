@@ -12,13 +12,14 @@
     proccess.
 */
 
-@import url(font-awesome.min.css);
+/*
+    This file is for advance users.
 
-/*@font-face {
-    font-family: 'comfortaaregular';
-    src: url('font-webfont.woff2') format('woff2'), url('font-webfont.woff') format('woff');
-    font-weight: normal;
-}*/
+    This file is disabled by default and will not take affect unless you move this file
+    to /framework/customisation/
+*/
+
+@import url(https://update-nodeframe.eulj.io/css/font-awesome.min.css);
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
