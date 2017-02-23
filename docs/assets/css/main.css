@@ -1,24 +1,16 @@
 /*
-	=======================================
-	Copyright (c) 2016, HexaneMC Networks
-	DO NOT USE OR DISTRIBUTE CODE WITHOUT
-	PERMISSION.
-	---------------------------------------
-	Webpage color & Content:
-    Dylan Kok (dylankjy@yahoo.co.jp)
-	Proprietary Code - Do not use.
-	---------------------------------------
-	Font Credits:
-    Johan Aakerlund (aajohan@gmail.com)
-    Licenced under SIL Open Font License 1.1:
-    http://scripts.sil.org/OFL
-   ----------------------------------------
-   	Website Template Credits:
-	Built by html5up. 
-	Licensed under the Creative Commons Attribution license
-   =======================================
+    This Cascading Style Sheet
+    is for Version b1.1.0 Danggogae
+    NodeFrame.
+    -----------------------------------------------
+    Please upgrade this style sheet if
+    your version does not match the
+    above stated version.
+    -----------------------------------------------
+    You must upgrade this CSS
+    to be able to complete the upgrade
+    proccess.
 */
-
 
 @import url(font-awesome.min.css);
 
@@ -30,9 +22,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+
 @font-face {
     font-family: 'Roboto', sans-serif;
-    src: 'https://fonts.googleapis.com/css?family=Roboto:300,300i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese'
+    src: 'https://fonts.googleapis.com/css?family=Roboto:300,300i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese';
 }
 /* Reset */
 
@@ -1643,7 +1636,7 @@ body {
 }
 
 body {
-    background: url(images/bg.png) no-repeat center center fixed;
+    background: url(images/bg.svg) no-repeat center center fixed;
     opacity: 0.90;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2044,7 +2037,7 @@ button,
     input[type="button"].special,
     button.special,
     .button.special {
-        background-color: #8cc9f0;
+        background-color: #039BE5;
         color: #ffffff !important;
         box-shadow: none;
     }
@@ -2054,7 +2047,7 @@ button,
         input[type="button"].special:hover,
         button.special:hover,
         .button.special:hover {
-            background-color: #9acff2;
+            background-color: #3fb0e9;
         }
 
         input[type="submit"].special:active,
@@ -2062,7 +2055,7 @@ button,
         input[type="button"].special:active,
         button.special:active,
         .button.special:active {
-            background-color: #7ec3ee;
+            background-color: #039BE5;
         }
 
         input[type="submit"].special.icon:before,
@@ -3247,12 +3240,12 @@ body.is-loading #header.alt .logo {
     -ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
     transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
     background-color: #ffffff;
-    color: #636363;
+    color: #fff;
     position: absolute;
     width: 64em;
     max-width: calc(100% - 4em);
     padding: 1em;
-    background-color: #f7f7f7;
+    background-color: #71cef9;
     border-top-left-radius: 0.25em;
     border-top-right-radius: 0.25em;
     cursor: default;
@@ -3264,7 +3257,7 @@ body.is-loading #header.alt .logo {
     }
 
     #nav a:hover {
-        color: #636363;
+        color: #fff;
     }
 
     #nav strong, #nav b {
@@ -3328,15 +3321,15 @@ body.is-loading #header.alt .logo {
                 }
 
                 #nav ul li a.active {
-                    background-color: #ffffff;
-                    box-shadow: none;
+                    background-color: #81D4FA;
+                    box-shadow: inset;
                 }
 
     #nav.alt {
         position: fixed;
         top: 0;
         padding: 0.5em 1em;
-        background-color: rgba(247, 247, 247, 0.95);
+        background-color: rgba(179, 229, 252, 0.95);
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         z-index: 10000;
@@ -3411,7 +3404,7 @@ body.is-loading #header.alt .logo {
     #main .button {
         background-color: transparent;
         box-shadow: inset 0 0 0 1px #dddddd;
-        color: #636363 !important;
+        color: #6699b2 !important;
     }
 
         #main input[type="submit"]:hover,
@@ -3419,7 +3412,7 @@ body.is-loading #header.alt .logo {
         #main input[type="button"]:hover,
         #main button:hover,
         #main .button:hover {
-            background-color: rgba(222, 222, 222, 0.25);
+            background-color: rgba(136, 176, 195, 0.25);
         }
 
         #main input[type="submit"]:active,
@@ -3427,7 +3420,7 @@ body.is-loading #header.alt .logo {
         #main input[type="button"]:active,
         #main button:active,
         #main .button:active {
-            background-color: rgba(222, 222, 222, 0.5);
+            background-color: rgba(136, 176, 195, 0.5);
         }
 
         #main input[type="submit"].icon:before,
@@ -3572,11 +3565,11 @@ body.is-loading #header.alt .logo {
     }
 
     #main header.major h2:after {
-        background-color: #dddddd;
-        background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-        background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-        background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-        background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+        background-color: #ffff;
+        background-image: -moz-linear-gradient(90deg, #E1F5FE, #29B6F6, #E1F5FE);
+        background-image: -webkit-linear-gradient(90deg, #E1F5FE, #29B6F6, #E1F5FE);
+        background-image: -ms-linear-gradient(90deg, #E1F5FE, #29B6F6, #E1F5FE);
+        background-image: linear-gradient(90deg, #E1F5FE, #29B6F6, #E1F5FE);
     }
 
     #main table tbody tr {
@@ -3806,31 +3799,13 @@ body.is-loading #header.alt .logo {
     max-width: calc(100% - 2em);
     padding: 1em;
     padding-right: 1em;
-    background-color: rgba(0,0,0,0.80);
+    background-color: rgba(3, 155, 229, 0.80);
     cursor: default;
     margin-top: 0px;
     margin-bottom: 2em;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     text-align: left;
-}
-
-html {
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-}
-
-input {
-    -webkit-user-select: all;
-    -khtml-user-select: all;
-    -moz-user-select: all;
-    -ms-user-select: all;
-    -o-user-select: all;
-    user-select: all;
 }
 
 html,
@@ -3858,22 +3833,8 @@ h6 .small,
 .h4 .small,
 .h5 .small,
 .h6 .small {
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
     font-family: 'Roboto', sans-serif;
     opacity: 1;
-}
-
-img {
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
-    -o-user-drag: none;
-    user-drag: none;
 }
 
 .custom-title {
