@@ -30,10 +30,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
-
 @font-face {
     font-family: 'Roboto', sans-serif;
-    src: 'https://fonts.googleapis.com/css?family=Roboto:300,300i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese';
+    src: 'https://fonts.googleapis.com/css?family=Roboto:300,300i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese'
 }
 /* Reset */
 
@@ -3816,6 +3815,24 @@ body.is-loading #header.alt .logo {
     text-align: left;
 }
 
+html {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+input {
+    -webkit-user-select: all;
+    -khtml-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    -o-user-select: all;
+    user-select: all;
+}
+
 html,
 h1 small,
 h2 small,
@@ -3841,8 +3858,22 @@ h6 .small,
 .h4 .small,
 .h5 .small,
 .h6 .small {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
     font-family: 'Roboto', sans-serif;
     opacity: 1;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
 }
 
 .custom-title {
