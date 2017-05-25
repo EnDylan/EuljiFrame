@@ -1,0 +1,31 @@
+/*
+    This file is for version Release 1.0.1 Nowon.
+    Last modified for Release 1.0.1 Nowon
+    --------------------------------------
+    Please update this file if the version number
+    on this file and your main HTML does not match
+*/
+
+
+/*
+        To enable Custom CSS, you have to declare them below.
+
+        Example:
+        @import url (LOCATION-OF-FILE/URL);
+
+        Remember to add ';' at the end of each line!
+        */
+
+
+/*Do not remove these lines of code*/
+@import url(../base-css/main.css);
+@import url(../base-css/snackbar.css);
+@import url(../base-css/spinner.css);
+@import url(../customisation/main-simplified.css);
+
+/*Start adding your custom or css below*/
+
+/*@import url(mylegendaryfile.css);*/
+
+
+/*End of css and js declaration*/

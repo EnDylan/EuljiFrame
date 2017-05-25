@@ -1,0 +1,229 @@
+/*
+    Settings File of EuljiFrame
+    Contains all settings to the EuljiFramework
+
+
+*/
+
+/*
+    This file is for version Release 1.0.1 Nowon.
+    Last modified for Beta 2.0.0 Sanggye
+    --------------------------------------
+    Please update this file if the version number
+    on this file and your main HTML does not match
+*/
+/*
+    This file will overwrite any custom css you add.
+    It will also overwrite disabled/main-advanced.css.
+
+    It is recommended to just directly edit the code
+    below. Please remember to make a backup!
+*/
+
+
+/*
+    Typography Settings
+    This section contains settings for your website's font.
+
+    Help: If you want to change the font, go to https://fonts.google.com
+              and get a font. Paste in the code that is give to you.
+
+    Example: 
+    Once you have selected a font on google fonts, make sure you select "@import" option.
+
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Varela+Round&subset=hebrew,latin-ext,vietnamese');
+    </style>
+    ^ You will get something like that ^
+
+    Only copy the URL: In this case; https://fonts.googleapis.com/css?family=Varela+Round&subset=hebrew,latin-ext,vietnamese
+    and paste it into @import url('PASTE IT HERE');
+
+    Change font-family to the one provided in google fonts.
+    font-family: 'Varela Round', sans-serif;
+    ^ Looks something like this ^
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese'); /*Title font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese'); /*Paragraphing and heading font*/
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: 'https://fonts.googleapis.com/css?family=Roboto:300,300i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese';
+}
+
+/*
+    Custom Background
+    This class contains settings for background.
+
+    The default background location is at /framework/img/
+*/
+body {
+    background: url(./BackgroundImage/background.svg) /*<-- Change this to the name of your background*/ no-repeat center center fixed;
+    opacity: 0.90;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*
+    Custom Footer
+    This class contains color and border settings for the transparent footer
+*/
+.custom-footer {
+    background-color: rgba(3, 155, 229, 0.80); /*Background Color for Footer*/
+    border-bottom-left-radius: 8px; /*Roundness of edges (Left)*/
+    border-bottom-right-radius: 8px; /*Roundness of edges (Right)*/
+    text-align: left; /*Alightment of text*/
+}
+
+/*
+    Paragraphing Style and Design
+    This class contains settings for the opacity and font-family for the entire website (ex. title)
+*/
+html,
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+    font-family: 'Roboto', sans-serif; /*Make sure you change this to the same font family if you changed the font*/
+    opacity: 1;
+}
+
+/*
+    Title
+    This class contains the settings of the title's font family and opacity
+*/
+.custom-title {
+    font-family: 'Roboto Slab', serif; /*Make sure you change this to the same font family if you changed the font*/
+    opacity: 1;
+}
+
+/*
+    Snackbar
+    The following settings are for the Google MDL Snackbar
+*/
+.snackbar {
+    background-color: lightblue; /*background colour of snackbar*/
+}
+
+.snackbar-success {
+    border-top-color: lightseagreen; /*top colour*/
+}
+
+.snackbar-info {
+    border-top-color: dodgerblue; /*top colour*/
+}
+
+.snackbar-warning {
+    border-top-color: orangered; /*top colour*/
+}
+
+.mdl-snackbar__text {
+    padding: 14px 12px 14px 24px;
+    vertical-align: middle;
+    color: white; /*Text colour*/
+    opacity: 1;
+    float: left; /*Text Alignment*/
+}
+
+/*
+    Loading Spinner
+    The following settings is for the Google MDL Spinner
+
+    The settings for this might be complex. Edit only what you know as this might break something.
+*/
+.mdl-spinner {
+    display: inline-block;
+    position: relative;
+    width: 28px;
+    height: 28px;
+}
+
+.mdl-spinner__layer-1 {
+    border-color: rgb(66,165,245); /*Colour RGB*/
+}
+
+.mdl-spinner--single-color .mdl-spinner__layer-1 {
+    border-color: black; /*Colour HEX/Name*/
+}
+
+.mdl-spinner__layer-2 {
+    border-color: rgb(244,67,54); /*Colour RGB*/
+}
+
+.mdl-spinner--single-color .mdl-spinner__layer-2 {
+    border-color: black; /*Colour HEX/Name*/
+}
+
+.mdl-spinner__layer-3 {
+    border-color: rgb(253,216,53); /*Colour RGB*/
+}
+
+.mdl-spinner--single-color .mdl-spinner__layer-3 {
+    border-color: black; /*Colour HEX/Name*/
+}
+
+.mdl-spinner__layer-4 {
+    border-color: rgb(76,175,80); /*Colour RGB*/
+}
+
+.mdl-spinner--single-color .mdl-spinner__layer-4 {
+    border-color: black; /*Colour HEX/Name*/
+}
+
+/*
+    Navigation Bar
+    The following contains settings for the navigation and docked bar
+*/
+#nav {
+    color: #fff; /*Text Colour*/
+    background-color: #71cef9; /*Background Colour*/
+    text-align: center; /*Text Alignment*/
+}
+
+    #nav input, #nav select, #nav textarea {
+        color: #636363; /*Selected*/
+    }
+
+    #nav a:hover {
+        color: #fff; /*Link Hover colour*/
+    }
+
+    #nav ul li a {
+        border-radius: 8px; /*Curvyness of the selected box*/
+    }
+
+        #nav ul li a:hover {
+            background-color: rgba(222, 222, 222, 0.25); /*Nav Bar Hover colour*/
+        }
+
+        #nav ul li a.active {
+            background-color: #81D4FA; /*Nav Bar Selected colour*/
+        }
+
+    #nav.alt {
+        background-color: rgba(179, 229, 252, 0.95); /*Docked Bar colour*/
+    }
