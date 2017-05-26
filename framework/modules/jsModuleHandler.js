@@ -19,7 +19,7 @@
 
 /*Framework Modules - DO NOT REMOVE!!*/
 var imported = document.createElement('script');
-imported.src = './framework/modules/euljiframe_system/js_modules/consolenotify.end';
+imported.src = './framework/modules/euljiframe_system/js_modules/consolenotify.js';
 document.head.appendChild(imported);
 
 var imported = document.createElement('script');
@@ -43,7 +43,7 @@ imported.src = './framework/modules/mdlgoogle_extension/extension.js';
 document.head.appendChild(imported);
 
 var imported = document.createElement('script');
-imported.src = './framework/modules/euljiframe_system/js_modules/donenotify.end';
+imported.src = './framework/modules/euljiframe_system/js_modules/donenotify.js';
 document.head.appendChild(imported);
 
 /*Start adding your custom or css below*/
