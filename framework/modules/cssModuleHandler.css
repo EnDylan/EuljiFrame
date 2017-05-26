@@ -1,0 +1,33 @@
+/*
+    This file is for version Release 1.1.0 Nowon.
+    --------------------------------------
+    Please update this file if the version number
+    on this file and your main HTML does not match
+*/
+
+/*
+        To enable Custom CSS, you have to declare them below.
+
+        Example:
+        @import url (LOCATION-OF-FILE/URL);
+
+        Remember to add ';' at the end of each line!
+        */
+
+
+/*Framework Modules - DO NOT REMOVE!!*/
+@import url("./clipboard_extension/extension.css");
+@import url("./euljiframe_system/extension.css");
+@import url("./flarloader_extension/extension.css");
+@import url("./fontawesome_extension/extension.css");
+@import url("./mdlgoogle_extension/extension.css");
+
+/*Settings - DO NOT REMOVE!!*/
+@import url("../customisation/settings.css");
+
+
+/*Start adding your custom or css below*/
+/*@import url(mylegendaryfile.css);*/
+
+
+/*End of css declaration*/

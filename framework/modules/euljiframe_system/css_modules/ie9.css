@@ -1,0 +1,69 @@
+/*
+    This file is for version Release 1.1.0 Nowon.
+    --------------------------------------
+    Please update this file if the version number
+    on this file and your main HTML does not match
+*/
+
+/*
+    Warning:
+    --------------------------------------
+    Do not directly modify this file.
+*/
+
+/* Spotlight */
+
+	.spotlight:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+
+	.spotlight .content {
+		float: left;
+		width: 60%;
+	}
+
+	.spotlight .image {
+		float: left;
+	}
+
+/* Features */
+
+	.features:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+
+	.features li {
+		float: left;
+	}
+
+/* Statistics */
+
+	.statistics {
+		display: inline-block;
+		width: auto;
+	}
+
+		.statistics:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+		.statistics li {
+			float: left;
+			padding: 1.5em 2.5em;
+		}
+
+/* Footer */
+
+	#footer > * {
+		float: left;
+	}
+
+	#footer .copyright {
+		clear: both;
+	}

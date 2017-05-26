@@ -1,0 +1,73 @@
+/*
+    This file is for version Release 1.1.0 Nowon.
+    --------------------------------------
+    Please update this file if the version number
+    on this file and your main HTML does not match
+*/
+
+/*
+    Warning:
+    --------------------------------------
+    Do not directly modify this file.
+*/
+
+/* Type */
+
+	body {
+		color: #ffffff;
+	}
+
+/* Button */
+
+	.button {
+		position: relative;
+		border: solid 1px !important;
+	}
+
+		.button.special {
+			border: none !important;
+		}
+
+/* Icon */
+
+	.icon.major {
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+		.icon.major:before {
+			font-size: 4em;
+			border: 0;
+		}
+
+/* Spotlight */
+
+	.spotlight .image {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+		.spotlight .image img {
+			position: relative;
+			-ms-behavior: url("assets/js/ie/PIE.htc");
+		}
+
+/* Features */
+
+	.features li {
+		width: 29%;
+	}
+
+/* Footer */
+
+	#footer > * {
+		width: 50%;
+		margin-left: 0;
+	}
+
+/* Main */
+
+	#main > .main > .image.main:first-child {
+		margin-top: 0;
+		margin-left: 0;
+		width: 100%;
+	}
