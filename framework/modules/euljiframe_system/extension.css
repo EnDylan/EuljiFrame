@@ -2,6 +2,7 @@
     EuljiFrame Extension
 */
 
-@import url("./css_modules/ie8.css");
-@import url("./css_modules/ie9.css");
+/*
+@import url("./css_modules/ie/ie8.css"); Not for use in Production Environment
+@import url("./css_modules/ie/ie9.css"); Experiemental Support for IE*/
 @import url("./css_modules/main.css");

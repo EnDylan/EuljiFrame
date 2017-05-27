@@ -358,9 +358,11 @@
 
     <!-- Raw Scripts-->
     <script>
-        (function () {
+        setTimeout(function () {
+            console.log("ClipboardJS: Loading Class - index.html");
             new Clipboard('#copy-button');
-        })();
+            console.log("ClipboardJS: Done.");
+        }, 1000);
     </script>
     <script>
         (function () {

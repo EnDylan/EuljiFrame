@@ -18,33 +18,43 @@
 
 
 /*Framework Modules - DO NOT REMOVE!!*/
+
 var imported = document.createElement('script');
 imported.src = './framework/modules/euljiframe_system/js_modules/consolenotify.js';
 document.head.appendChild(imported);
 
-var imported = document.createElement('script');
-imported.src = './framework/modules/euljiframe_system/extension.js';
-document.head.appendChild(imported);
+setTimeout(function () {
 
-var imported = document.createElement('script');
-imported.src = './framework/modules/clipboard_extension/extension.js';
-document.head.appendChild(imported);
+    setTimeout(function () {
+        console.log("jsModulesHandler: Loading js_modules & css_modules.");
+    }, 10);
 
-var imported = document.createElement('script');
-imported.src = './framework/modules/flarloader_extension/extension.js';
-document.head.appendChild(imported);
+    var imported = document.createElement('script');
+    imported.src = './framework/modules/euljiframe_system/extension.js';
+    document.head.appendChild(imported);
 
-var imported = document.createElement('script');
-imported.src = './framework/modules/fontawesome_extension/extension.js';
-document.head.appendChild(imported);
+    setTimeout(function () {
+        var imported = document.createElement('script');
+        imported.src = './framework/modules/clipboard_extension/extension.js';
+        document.head.appendChild(imported);
 
-var imported = document.createElement('script');
-imported.src = './framework/modules/mdlgoogle_extension/extension.js';
-document.head.appendChild(imported);
+        var imported = document.createElement('script');
+        imported.src = './framework/modules/flarloader_extension/extension.js';
+        document.head.appendChild(imported);
 
-var imported = document.createElement('script');
-imported.src = './framework/modules/euljiframe_system/js_modules/donenotify.js';
-document.head.appendChild(imported);
+        var imported = document.createElement('script');
+        imported.src = './framework/modules/fontawesome_extension/extension.js';
+        document.head.appendChild(imported);
+
+        var imported = document.createElement('script');
+        imported.src = './framework/modules/mdlgoogle_extension/extension.js';
+        document.head.appendChild(imported);
+
+        var imported = document.createElement('script');
+        imported.src = './framework/modules/euljiframe_system/js_modules/donenotify.js';
+        document.head.appendChild(imported);
+    }, 250);
+}, 90);
 
 /*Start adding your custom or css below*/
 /*

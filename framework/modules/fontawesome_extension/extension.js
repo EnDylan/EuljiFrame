@@ -2,5 +2,5 @@
     EuljiFrame Extension
 */
 console.log("Enabling FontAwesome");
-console.warn("FontAwesome has no Javascript File.\nSome extensions do not utilise Javascripts, you can safely ignore this if this extension is under that category.");
+console.warn("FontAwesome only uses a CSS file. This may be an error.");
 console.log("Enabled FontAwesome");
