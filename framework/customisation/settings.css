@@ -11,7 +11,6 @@
 */
 /*
     This file will overwrite any custom css you add.
-    It will also overwrite disabled/main-advanced.css.
 
     It is recommended to just directly edit the code
     below. Please remember to make a backup!
@@ -141,7 +140,7 @@ h6 .small,
 .mdl-snackbar__text {
     padding: 14px 12px 14px 24px;
     vertical-align: middle;
-    color: white; /*Text colour*/
+    color: black; /*Text colour*/
     opacity: 1;
     float: left; /*Text Alignment*/
 }

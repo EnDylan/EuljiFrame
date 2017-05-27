@@ -30,6 +30,6 @@ document.head.appendChild(imported);
 var imported = document.createElement('script');
 imported.src = './framework/modules/euljiframe_system/js_modules/main.js';
 document.head.appendChild(imported);
-}, 100);
+}, 275);
 
 console.log("Enabling EuljiFrame System");
